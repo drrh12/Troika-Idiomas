@@ -66,7 +66,8 @@ hr {
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
-  overflow: visible; }
+  overflow: visible; 
+}
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
@@ -9944,4 +9945,9 @@ textarea.form-control {
 
 .option-hold{
   color: black;
+}
+
+hr.linha{
+  border: 0.5px solid black;
+  width: 98%;
 }
