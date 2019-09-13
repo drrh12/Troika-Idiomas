@@ -1617,30 +1617,30 @@ pre {
     background-color: transparent;
     border: 0; }
   .form-control:focus {
-    color: #495057;
+    color: black;
     background-color: #fff;
     border-color: #80bdff;
     outline: 0;
     -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
   .form-control::-webkit-input-placeholder {
-    color: #6c757d;
+    color: black;
     opacity: 1; }
   .form-control:-ms-input-placeholder {
-    color: #6c757d;
+    color: black;
     opacity: 1; }
   .form-control::-ms-input-placeholder {
-    color: #6c757d;
+    color: black;
     opacity: 1; }
   .form-control::placeholder {
-    color: #6c757d;
+    color: black;
     opacity: 1; }
   .form-control:disabled, .form-control[readonly] {
     background-color: #e9ecef;
     opacity: 1; }
 
 select.form-control:focus::-ms-value {
-  color: #495057;
+  color: black;
   background-color: #fff; }
 
 .form-control-file,
@@ -9942,3 +9942,6 @@ textarea.form-control {
   font-size: 40px;
 }
 
+.option-hold{
+  color: black;
+}
