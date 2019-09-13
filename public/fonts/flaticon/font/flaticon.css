@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 15/08/2019 02:46
+  	Creation date: 13/09/2019 07:01
   	*/
 
 @font-face {
@@ -30,11 +30,9 @@ font-style: normal;
 margin-left: 20px;
 }
 
-.flaticon-collaboration:before { content: "\f100"; }
-.flaticon-search-engine:before { content: "\f101"; }
-.flaticon-analysis:before { content: "\f102"; }
-.flaticon-handshake:before { content: "\f103"; }
-.flaticon-business:before { content: "\f104"; }
-.flaticon-insurance:before { content: "\f105"; }
-.flaticon-money:before { content: "\f106"; }
-.flaticon-rating:before { content: "\f107"; }
+.flaticon-language:before { content: "\f100"; }
+.flaticon-online-class:before { content: "\f101"; }
+.flaticon-teacher-pointing-blackboard:before { content: "\f102"; }
+.flaticon-elearning:before { content: "\f103"; }
+.flaticon-checklist:before { content: "\f104"; }
+.flaticon-students-group-with-one-talking:before { content: "\f105"; }
