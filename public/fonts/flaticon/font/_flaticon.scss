@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 07/09/2019 22:12
+    Creation date: 07/09/2019 21:04
     */
 
     @font-face {
@@ -42,9 +42,13 @@
 .flaticon-teacher-pointing-blackboard:before { content: "\f102"; }
 .flaticon-elearning:before { content: "\f103"; }
 .flaticon-checklist:before { content: "\f104"; }
+.flaticon-notebook:before { content: "\f105"; }
+.flaticon-presentation:before { content: "\f106"; }
     
     $font-Flaticon-language: "\f100";
     $font-Flaticon-online-class: "\f101";
     $font-Flaticon-teacher-pointing-blackboard: "\f102";
     $font-Flaticon-elearning: "\f103";
     $font-Flaticon-checklist: "\f104";
+    $font-Flaticon-notebook: "\f105";
+    $font-Flaticon-presentation: "\f106";
