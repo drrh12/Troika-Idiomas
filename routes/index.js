@@ -6,8 +6,5 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-router.get('/russo_24h' function(req, res, next){
-  res.render('')
-})
 
 module.exports = router;
