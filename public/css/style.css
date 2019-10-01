@@ -8798,10 +8798,10 @@ h1, h2, h3, h4, h5,
   .services-2 h3 {
     font-size: 20px;
     font-weight: 700;
-    color: black;
+    color: #233e62;
   }
   .services-2:hover {
-    background: #f02a2a;
+    background: #1b9ce3;
     -webkit-box-shadow: 0px 0px 27px -16px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 27px -16px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 27px -16px rgba(0, 0, 0, 0.75);
