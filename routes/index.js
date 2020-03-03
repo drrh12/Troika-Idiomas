@@ -44,6 +44,21 @@ router.get('/contato', function(req, res, next) {
   res.render('contato', { title: 'Troika Idiomas' });
 });
 
+router.get('/blog', function(req, res, next) {
+  res.render('blog', { title: 'Troika Idiomas' });
+});
+
+router.get('/material', function(req, res, next) {
+  res.render('material', { title: 'Troika Idiomas' });
+});
+
+
+
+
+
+
+
+
 router.post('/send', (req, res) => {
   const output = `
     <p>Você tem um novo Email</p>
