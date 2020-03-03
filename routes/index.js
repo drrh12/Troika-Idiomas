@@ -52,6 +52,11 @@ router.get('/material', function(req, res, next) {
   res.render('material', { title: 'Troika Idiomas' });
 });
 
+router.get('/russo_nativo', function(req, res, next) {
+  res.render('russo_nativo', { title: 'Troika Idiomas' });
+});
+
+
 
 
 
