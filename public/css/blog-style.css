@@ -34,7 +34,9 @@ font-size: 13px;
     padding: 90px 0;
     background-color: #f9f9f9;
 }
+
 .blog-post{
+    margin: 0 -20% 0 20%;
     background-color: #ffffff;
     border: 1px solid #ececec;
 }
@@ -296,3 +298,4 @@ nav ul {
     }
     
 }
+
