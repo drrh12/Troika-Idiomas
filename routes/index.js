@@ -15,26 +15,13 @@ router.get('/cursos', function(req, res, next) {
   res.render('cursos', { title: 'Troika Idiomas' });
 });
 
-router.get('/russo24', function(req, res, next) {
-  res.render('russo24', { title: 'Troika Idiomas' });
-});
-
-router.get('/russo_presencial', function(req, res, next) {
-  res.render('russo_presencial', { title: 'Troika Idiomas' });
-});
-
-router.get('/russo_online', function(req, res, next) {
-  res.render('russo_online', { title: 'Troika Idiomas' });
+router.get('/russo_ead', function(req, res, next) {
+  res.render('curso_EAD', { title: 'Troika Idiomas' });
 });
 
 router.get('/ingles_online', function(req, res, next) {
   res.render('ingles_online', { title: 'Troika Idiomas' });
 });
-
-router.get('/ingles_30', function(req, res, next) {
-  res.render('ingles_30', { title: 'Troika Idiomas' });
-});
-
 
 router.get('/intercambio', function(req, res, next) {
   res.render('intercambio', { title: 'Troika Idiomas' });
@@ -55,13 +42,6 @@ router.get('/material', function(req, res, next) {
 router.get('/russo_nativo', function(req, res, next) {
   res.render('russo_nativo', { title: 'Troika Idiomas' });
 });
-
-
-
-
-
-
-
 
 
 router.post('/send', (req, res) => {
@@ -94,7 +74,7 @@ router.post('/send', (req, res) => {
   // setup email data with unicode symbols
   let mailOptions = {
       from: '<suporte@troikaidiomas.com>', // sender address
-      to: 'suporte@troikaidiomas.com', // list of receivers
+      to: 'flavioandrade0201@gmail.com', // list of receivers
       subject: req.body.subject, // Subject line
       html: output // html body
   };

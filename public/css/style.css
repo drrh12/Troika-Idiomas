@@ -9815,9 +9815,11 @@ textarea.form-control {
   font-size: 15px;
   width: 100%; }
   .sidebar-box h3 {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 20px; }
-
+  .sidebar-box p{
+    font-size: 20px;
+  }
 .categories, .sidelink {
   padding: 0; }
   .categories li, .sidelink li {
@@ -9951,3 +9953,4 @@ hr.linha{
   border: 0.5px solid black;
   width: 98%;
 }
+
