@@ -74,7 +74,7 @@ router.post('/send', (req, res) => {
   // setup email data with unicode symbols
   let mailOptions = {
       from: '<suporte@troikaidiomas.com>', // sender address
-      to: 'flavioandrade0201@gmail.com', // list of receivers
+      to: 'flavioandrade0201@gmail.com, linkdimitri@gmail.com', // list of receivers
       subject: req.body.subject, // Subject line
       html: output // html body
   };
